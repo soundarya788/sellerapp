@@ -36,3 +36,91 @@
     transform: rotate(360deg);
   }
 }
+
+
+button {
+  
+  font-size: 14px; 
+  height:20px;
+
+
+  
+  
+}
+
+
+
+
+.card-container {
+
+  flex-wrap: wrap;
+  text-align:center ;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  
+  
+  
+  
+  
+}
+
+
+.card-info {
+  text-align: center; 
+  margin-top: 10px;
+
+}
+
+
+.card {
+  width: calc(5% - 0px); 
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 3px;
+  text-align:center ;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  height:240px;
+  width:10px;
+  background-color: #f0f0f0; 
+  
+}
+
+.pages button {
+  padding: 5px 10px;
+  font-size: 14px;
+  margin: 0 5px; /* Add margin between buttons */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Text color */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+.pages button.active {
+  background-color: #ccc; /* Active button background color */
+  color: #000; /* Active button text color */
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 50px; /* Optional: Add margin for spacing */
+}
+
+.buy button {
+  padding: 10px 20px;
+  font-size: 14px;
+  margin: 0 5px; /* Add margin between buttons */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Text color */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top:'-240px',
+  
+  
+}
